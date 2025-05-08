@@ -142,7 +142,7 @@ clients:
         id: "1136220934"
 
   - name: 'VidHub'
-    targets: [ Android ,iOS, AppleTV, macOS ]
+    targets: [ Android, AndroidTV, iOS, AppleTV, macOS ]
     website: https://okaapps.com/product/1659622164
     price:
       free: true
@@ -179,6 +179,17 @@ clients:
       -
         type: app-store
         id: "1574922594"
+
+  - name: "Plappa"
+    targets: [ iOS ]
+    types: [ Music ]
+    oss: https://github.com/LeoKlaus/plappa
+    official: false
+    beta: false
+    downloads:
+      -
+        type: app-store
+        id: "6475201956"
 
   - name: "MrMC"
     targets: [ AppleTV ]
@@ -496,6 +507,36 @@ clients:
       - 
         type: google-play
         id: nl.jknaapen.fladder
+  
+  - name: AfuseKt
+    targets: [ Android, AndroidTV ]
+    official: false
+    beta: false
+    website: "https://github.com/AttemptD/AfuseKt-release"
+    price:
+      free: true
+      paid: true
+    downloads:
+      -
+        type: github
+        owner: AttemptD
+        repo: AfuseKt-release
+      -
+        type: github
+        owner: AttemptD
+        repo: AfuseKtV-release
+  
+  - name: FluentFin
+    targets: [ Windows ]
+    oss: https://github.com/insomniachi/FluentFin
+    official: false
+    beta: true
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: insomniachi
+        repo: FluentFin
 
 targets:
   - key: Browser
